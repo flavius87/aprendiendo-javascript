@@ -26,7 +26,7 @@ class Persona{
         return this._apellido;
     }
     set apellido(apellido){
-        this._apellido;
+        this._apellido = apellido;
     }
     nombreCompleto(){
         return this.idPersona + ' ' + this._nombre + ' ' + this._apellido;
@@ -53,7 +53,7 @@ class Empleado extends Persona{
         return this._departamento;
     }
     set departamento(departamento){
-        this._departamento;
+        this._departamento = departamento;
     }
     // Sobreescritura
     nombreCompleto(){
